@@ -95,5 +95,5 @@ app.post("/message", async (req, res) => {
 });
 
 app.listen(8080, () => {
-  console.log("Server on", process.env.OpenAI_API_KEY);
+  console.log("Server on");
 });
